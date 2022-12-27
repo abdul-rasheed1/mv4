@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
@@ -15,28 +16,28 @@
   <div class="fom">
 <form  action="" id="survey-form" method="post">
   <fieldset>
-  <label id="name-label">Name <input required id="name" type="text" placeholder="name"><br>
-  <label id="email-label">Email<input required id="email" type="email"  placeholder="email"><br>
-  <label id="number-label">Age  <input id="number"type="number"  placeholder="your age" min="18" max="99"><br>
+  <label for="name" >Name <input class="spac" required id="name" type="text" placeholder="name"></label>
+  <label for="email">Email<input class="spac" required id="email" type="email"  placeholder="email"></label>
+  <label for="number" >Age <input class="spac" id="number"type="number"  placeholder="your age" min="18" max="99"></label>
 </fieldset>
 
  <fieldset>
     What option best describes your current role?
     <select  id="dropdown" name="Which option best describes your current role?" id="role"><br>
-    <option value="student">Student</option><br>
-    <option value="fulltime job">Fulltime Job</option><br>
-    <option value="fulltime learner">Fulltime Learner</option><br>
-    <option value="prefer not to say">Prefer Not to say</option><br>
+    <option value="student">Student</option>
+    <option value="fulltime job">Fulltime Job</option>
+    <option value="fulltime learner">Fulltime Learner</option>
+    <option value="prefer not to say">Prefer Not to say</option>
     <option value="other">Other</option><br>
   </select>
 </fieldset>
   
   
   <fieldset>
-    Which option best describes your current role?<br>
-<input type="radio" id="" name="Definitely" value="definitely">Definitely<br>
-<input type="radio" id="" name="Definitely" value="Maybe">Maybe<br>
-<input type="radio" id="" name="Definitely" value="Not sure">Not Sure<br>
+  Would you recommend freeCodeCamp to a friend?<br>
+<label for="definite"><input type="radio" id="definite" name="Definitely" value="definitely">Definitely</label><br>
+<label for="uncertain"><input type="radio" id="uncertain" name="Definitely" value="Maybe">Maybe</label><br>
+<label for="notsure"><input type="radio" id="notsure" name="Definitely" value="Not sure">Not Sure</label>
 </fieldset>
 
 
@@ -65,7 +66,7 @@
   Any comments or suggestions?<br>
 <textarea name="comments" row="10" cols="30"></textarea><br>
 
-<button id="submit" >Submit</button>
+<label for="final"><input type="submit"  id="final"></label>
 
 
 </form>
