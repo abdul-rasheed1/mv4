@@ -4,6 +4,7 @@ body{
     background:url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     color:white;
     font-family:Tahoma,serif;
+    font-size:20px;
   }
 .transparent-background {
     background-color: rgba(82, 17, 187, 0.5);
